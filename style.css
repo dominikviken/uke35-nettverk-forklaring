@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 4vw;
+
+    margin-bottom: -0.4vw;
+
+    text-decoration: underline;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    
+    font-size: 2.8vw;
+
+    margin-bottom: 0.4vw
+}
+
+p {
+    font-size: 1.45vw;
+
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+a {
+    color: rgb(66, 123, 223);
+    
+    font-size: 2vw;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+} 
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(223, 131, 66);
+    scale: 110%;
+}
+
+.center {
+    display: flex;
+    
+    height: 42vw;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.funksjoner, .komponenter {
+    display: flex;    
+    gap: 2vw;
+}
